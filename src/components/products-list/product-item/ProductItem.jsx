@@ -10,11 +10,11 @@ const ProductItem = props => {
     return (
         <Link to={`/ViewProduct/${id}`} className="pd-link">
         <ListGroup >
-        <ListGroupItem key={id} className="mb-4 shadow-sm" style={{width : 250, height : 250}}>
+        <ListGroupItem key={id} className="mb-4 shadow-sm" style={{width : 250, height : 250, margin : 20}}>
 
             <Row >
             
-                <Col >
+                <Col>
                     <img src={img} className="product-img w-100" alt="product"/>
                     <h5 className="mb-0 d-inline-block">{title}</h5><br />  
                     <h2 className="d-inline-block mr-2">&#x20b9;{offerPrice}</h2>
