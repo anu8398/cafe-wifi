@@ -4,7 +4,7 @@ import QRCode from 'qrcode.react';
 
 const WifiCard = () => {
   const [ssid, setSsid] = useState('');
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState('****');
   const [qrvalue, setQrvalue] = useState('');
 
   const escape = (v) => {
